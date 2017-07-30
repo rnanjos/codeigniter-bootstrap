@@ -16,4 +16,18 @@ class Site extends CI_Controller {
 		'keywords' => 'page1');
 		$this->load->view('index', $dados);
 	}
+
+	public function page2() {
+		$dados  = array('view_principal' => 'page1',
+		'title' => 'page1',
+		'keywords' => 'page1');
+		$this->load->view('index', $dados);
+	}
+
+	public function contato() {
+		$dados  = array('view_principal' => 'contato',
+		'title' => 'contato',
+		'keywords' => 'contato');
+		$this->load->view('index', $dados);
+	}
 }

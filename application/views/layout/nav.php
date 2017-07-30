@@ -14,12 +14,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                    <li><?php echo anchor('page1', 'Page1');?></li>
-                    <li>
-                        <a href="services.html">page 2</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+                   <li><?php echo anchor('page2', 'Page2');?></li>
+                   <li><?php echo anchor('contato', 'Contato');?></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
